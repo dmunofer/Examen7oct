@@ -1,4 +1,4 @@
-from vehiculo import Vehiculo
+from vehiculo import *
 from coche import *
 
 def catalogar(lista, nruedas=-8):
@@ -7,7 +7,7 @@ def catalogar(lista, nruedas=-8):
         for elemento in lista:
             print(type(elemento).__name__, elemento)
 
-    elif Vehiculo.getruedas()==nruedas:
+    elif Vehiculo.getruedas==nruedas:
             coincidenlasruedas+=1
     else:
         pass
