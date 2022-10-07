@@ -7,3 +7,5 @@ vehiculo1= Vehiculo("rojo",6)
 
 vehiculos=[coche,coche2,vehiculo1]
 
+
+
