@@ -9,6 +9,8 @@ def catalogar(lista, nruedas=-8):
 
     elif Vehiculo.getruedas==nruedas:
             coincidenlasruedas+=1
+    elif Coche.getruedas==nruedas:
+            coincidenlasruedas+=1
     else:
         pass
 
