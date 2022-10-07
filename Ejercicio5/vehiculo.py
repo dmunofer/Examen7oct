@@ -6,4 +6,4 @@ class Vehiculo():
 
     def __str__(self):
 
-        return "Color {}, {} ruedas".format( self.color, self.ruedas )
+        return "Color {}, {} ruedas".format(self.color, self.ruedas)
