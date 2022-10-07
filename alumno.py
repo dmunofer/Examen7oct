@@ -12,4 +12,8 @@ class Alumno():
             print('Suspenso')
 
 alumno1=Alumno('Diego',5)
-alumno2=Alum
+alumno2=Alumno('Enrique',4)
+
+Alumno.calificacion(alumno1)
+Alumno.calificacion(alumno2)
+
