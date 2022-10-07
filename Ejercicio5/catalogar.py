@@ -7,8 +7,8 @@ def catalogar(lista, nruedas=-8):
         for elemento in lista:
             print(type(elemento).__name__, elemento)
 
-    elif Vehiculo.ruedas==nruedas:
-            cont+=1
+    elif Vehiculo.getruedas()==nruedas:
+            coincidenlasruedas+=1
     else:
         pass
 
