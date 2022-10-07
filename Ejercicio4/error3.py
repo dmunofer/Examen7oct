@@ -4,5 +4,5 @@ def error3(dict,clave):
     else:
         return dict[clave]
 
-paises = { "españa":"español", "eeuu":"inglés", "italia":"italiano" }
-
+paises = { "españa":"español", "eeuu":"inglés", "italia":"italiano" } 
+error3(paises, "alemania")
