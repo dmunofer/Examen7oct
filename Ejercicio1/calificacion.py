@@ -9,6 +9,6 @@ def calificacion(self):
 alumno1=Alumno('Diego',5)
 alumno2=Alumno('Enrique',4)
 
-Alumno.calificacion(alumno1)
-Alumno.calificacion(alumno2)
+calificacion(alumno1)
+calificacion(alumno2)
 
