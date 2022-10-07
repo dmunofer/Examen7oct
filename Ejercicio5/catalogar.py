@@ -1,4 +1,4 @@
-from vehiculo import *
+from vehiculo import Vehiculo
 from coche import *
 
 def catalogar(lista, nruedas=-8):
@@ -11,6 +11,7 @@ def catalogar(lista, nruedas=-8):
             cont+=1
     else:
         pass
+
     return "Se han encontrado {} vehículo(s) con {} ruedas".format(cont,nruedas)
 
 vehiculo1= Vehiculo("rojo",6)
