@@ -21,6 +21,9 @@ alumno2=Alumno('Enrique',4)
 Alumno.calificacion(alumno1)
 Alumno.calificacion(alumno2)
 
+print(alumno1)
+print(alumno2)
+
 
 
 
